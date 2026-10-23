@@ -1,0 +1,202 @@
+name: build-firmware
+
+on:
+  workflow_dispatch:
+    inputs:
+      klipper_ref:
+        description: "Klipper ref to build (tag, branch or SHA; e.g. v0.12.0 or master)"
+        required: false
+        default: "master"
+      katapult_ref:
+        description: "Katapult ref for Katapult variants"
+        required: false
+        default: "master"
+      force:
+        description: "Re-create the release even if it already exists"
+        required: false
+        default: "false"
+  repository_dispatch:
+    types: [klipper-release]
+  schedule:
+    # Every 6 hours: build the newest Klipper3d/klipper release tag if not built yet.
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+env:
+  REPO: ${{ github.repository }}
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    outputs:
+      klipper_ref: ${{ steps.res.outputs.klipper_ref }}
+      version: ${{ steps.res.outputs.version }}
+      skip: ${{ steps.res.outputs.skip }}
+    steps:
+      - name: Resolve klipper ref + version
+        id: res
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          EVENT="${{ github.event_name }}"
+          REF=""
+          FORCE="${{ github.event.inputs.force || 'false' }}"
+          if [ "$EVENT" = "repository_dispatch" ]; then
+            REF="${{ github.event.client_payload.tag }}"
+          elif [ "$EVENT" = "workflow_dispatch" ]; then
+            REF="${{ github.event.inputs.klipper_ref || 'master' }}"
+          else
+            REF=$(curl -sf https://api.github.com/repos/Klipper3d/klipper/releases/latest | jq -r .tag_name)
+            [ -n "$REF" ] && [ "$REF" != "null" ] || { echo "could not resolve latest klipper tag"; exit 1; }
+          fi
+          # Release-tag builds skip if we already published that release.
+          SKIP="false"
+          if [ "$EVENT" != "workflow_dispatch" ] || [ "$FORCE" != "true" ]; then
+            if gh release view "klipper-$REF" -R "$REPO" >/dev/null 2>&1; then
+              SKIP="true"
+            fi
+          fi
+          echo "klipper_ref=$REF" >> "$GITHUB_OUTPUT"
+          echo "version=$REF" >> "$GITHUB_OUTPUT"
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+          echo "Building klipper ref: $REF (skip=$SKIP)"
+
+  verify:
+    needs: resolve
+    if: needs.resolve.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Klipper3d/klipper
+          ref: ${{ needs.resolve.outputs.klipper_ref }}
+          path: klipper
+      - uses: actions/checkout@v4
+        with:
+          repository: Arksine/katapult
+          ref: ${{ github.event.inputs.katapult_ref || 'master' }}
+          path: katapult
+      - name: Verify all presets against the checked-out Klipper/Katapult Kconfig
+        run: |
+          pip install pyyaml
+          python3 tools/verify_presets.py --klipper klipper --katapult katapult
+
+  build:
+    needs: [resolve, verify]
+    if: needs.resolve.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    outputs:
+      klipper_commit: ${{ steps.vers.outputs.klipper_commit }}
+      katapult_commit: ${{ steps.vers.outputs.katapult_commit }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Klipper3d/klipper
+          ref: ${{ needs.resolve.outputs.klipper_ref }}
+          path: klipper
+      - uses: actions/checkout@v4
+        with:
+          repository: Arksine/katapult
+          ref: ${{ github.event.inputs.katapult_ref || 'master' }}
+          path: katapult
+      - name: Install toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential
+          pip install pyyaml
+      - name: Record source commits
+        id: vers
+        run: |
+          echo "klipper_commit=$(git -C klipper rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "katapult_commit=$(git -C katapult rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Build all targets
+        run: |
+          set -euo pipefail
+          VERSION="${{ needs.resolve.outputs.version }}"
+          OUT=artifacts
+          mkdir -p "$OUT"
+          python3 - <<'EOF'
+          import os, subprocess, sys, yaml
+          m = yaml.safe_load(open("boards.yaml"))
+          ver = os.environ["VERSION"]
+          failed = []
+          for b in m["boards"]:
+              for v in b["builds"]:
+                  cmd = [sys.executable, "tools/build_target.py",
+                         "--board", b["id"], "--variant", v["variant"],
+                         "--klipper", "klipper", "--katapult", "katapult",
+                         "--version", ver, "--out", "artifacts", "--jobs", "2"]
+                  print("::group::", b["id"], v["variant"])
+                  r = subprocess.run(cmd)
+                  print("::endgroup::")
+                  if r.returncode != 0:
+                      failed.append(f"{b['id']}/{v['variant']}")
+          if failed:
+              print("FAILED TARGETS:", failed)
+              sys.exit(1)
+          EOF
+        env:
+          VERSION: ${{ needs.resolve.outputs.version }}
+      - name: Upload artifact bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: firmware-${{ needs.resolve.outputs.version }}
+          path: artifacts/
+          retention-days: 7
+
+  release:
+    needs: [resolve, build]
+    if: needs.resolve.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: firmware-${{ needs.resolve.outputs.version }}
+          path: artifacts
+      - name: Generate site manifest
+        run: |
+          pip install pyyaml
+          python3 tools/gen_site_manifest.py \
+            --boards boards.yaml --artifacts artifacts \
+            --version "${{ needs.resolve.outputs.version }}" \
+            --klipper-commit "${{ needs.build.outputs.klipper_commit }}" \
+            --katapult-commit "${{ needs.build.outputs.katapult_commit }}" \
+            --repo "$REPO" --out manifest.json
+      - name: Create release and attach bins
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ needs.resolve.outputs.version }}
+        run: |
+          set -euo pipefail
+          TAG="klipper-$VERSION"
+          if gh release view "$TAG" -R "$REPO" >/dev/null 2>&1; then
+            gh release delete "$TAG" -R "$REPO" --yes --cleanup-tag
+          fi
+          {
+            echo "Prebuilt Klipper firmware for Klipper \`$VERSION\`."
+            echo
+            echo "- Klipper source: https://github.com/Klipper3d/klipper/tree/${{ needs.build.outputs.klipper_commit }}"
+            echo "- Katapult source (CAN bootloader bins): https://github.com/Arksine/katapult/tree/${{ needs.build.outputs.katapult_commit }}"
+            echo "- Build configs for every bin are attached (\`*.config\`) and in \`tools/\`."
+            echo
+            echo "**Wrong firmware can make a board fail to boot (and on some boards can enable heaters).** Check the board page on the download portal before flashing."
+          } > notes.md
+          gh release create "$TAG" -R "$REPO" --title "Klipper $VERSION" --notes-file notes.md
+          find artifacts -name 'firmware-*' -print0 | xargs -0 gh release upload "$TAG" -R "$REPO" --clobber
+          gh release upload "$TAG" -R "$REPO" manifest.json --clobber
+      - name: Commit manifest.json for the download portal
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name "a3dp-bot"
+          git config user.email "bot@advanced3dprinting.com"
+          git add manifest.json
+          git diff --cached --quiet || git commit -m "manifest: klipper-${{ needs.resolve.outputs.version }}"
+          git push
