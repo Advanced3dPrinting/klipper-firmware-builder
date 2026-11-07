@@ -59,7 +59,7 @@ def main():
         raise SystemExit("katapult variant requires --katapult checkout")
     src = pathlib.Path(args.katapult if katapult else args.klipper).resolve()
 
-    out = pathlib.Path(args.out)
+    out = pathlib.Path(args.out).resolve()
     out.mkdir(parents=True, exist_ok=True)
 
     cfgfile = out / f"config-{args.board}-{args.variant}.config"
