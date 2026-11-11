@@ -49,7 +49,7 @@ jobs:
           elif [ "$EVENT" = "workflow_dispatch" ]; then
             REF="${{ github.event.inputs.klipper_ref || 'master' }}"
           else
-            REF=$(curl -sf -H "Authorization: Bearer $GH_TOKEN" https://api.github.com/repos/Klipper3d/klipper/releases/latest | jq -r .tag_name)
+            REF=$(curl -sf -H "Authorization: Bearer $GH_TOKEN" "https://api.github.com/repos/Klipper3d/klipper/tags?per_page=1" | jq -r ".[0].name")
             [ -n "$REF" ] && [ "$REF" != "null" ] || { echo "could not resolve latest klipper tag"; exit 1; }
           fi
           # Release-tag builds skip if we already published that release.
