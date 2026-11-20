@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "generated_at": "2026-11-11T03:27:37.515977Z",
+ "generated_at": "2026-11-20T20:25:51.017134Z",
  "repo": "https://github.com/Advanced3dPrinting/klipper-firmware-builder",
- "klipper_version": "v0.13.0",
- "klipper_commit": "61c0c8d2ef40340781835dd53fb04cc7a454e37a",
+ "klipper_version": "v0.14.0",
+ "klipper_commit": "c9559fa04ec6b11fb1a9a1610903546319fcf310",
  "katapult_commit": "3b973a485388b4ef0f9efef46f78152e302aea8e",
  "source_commits": {
-  "klipper": "https://github.com/Klipper3d/klipper/tree/61c0c8d2ef40340781835dd53fb04cc7a454e37a",
+  "klipper": "https://github.com/Klipper3d/klipper/tree/c9559fa04ec6b11fb1a9a1610903546319fcf310",
   "katapult": "https://github.com/Arksine/katapult/tree/3b973a485388b4ef0f9efef46f78152e302aea8e"
  },
  "flash_methods": {
@@ -67,21 +67,21 @@
      "variant": "f446-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-1.1-f446-usb-v0.13.0.bin",
-     "file": "firmware-btt-octopus-1.1-f446-usb-v0.13.0.bin",
-     "size": 38188,
-     "sha256": "3bee7d20c4aa12179dc23630eb267b94fa8e53eb2d9bb1e4269c819b66aed40b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-1.1-f446-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-1.1-f446-usb-v0.14.0.bin",
+     "file": "firmware-btt-octopus-1.1-f446-usb-v0.14.0.bin",
+     "size": 46560,
+     "sha256": "8fe51d468e4b501171c51cbdb0a350c01a7a1c8a7bb29b8f3d2d39679aa6344f",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-1.1-f446-usb-v0.14.0.config"
     },
     {
      "variant": "f429-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-1.1-f429-usb-v0.13.0.bin",
-     "file": "firmware-btt-octopus-1.1-f429-usb-v0.13.0.bin",
-     "size": 38176,
-     "sha256": "ff0df8f6c590bfc75caacefbc50345147cf41134a66e7032ae55f833d7e77285",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-1.1-f429-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-1.1-f429-usb-v0.14.0.bin",
+     "file": "firmware-btt-octopus-1.1-f429-usb-v0.14.0.bin",
+     "size": 46576,
+     "sha256": "a6cf46e0d9628e9c38490c82b05afd3b9f7b9b5d7356c2a0e5a72b1d8421aff1",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-1.1-f429-usb-v0.14.0.config"
     }
    ]
   },
@@ -100,31 +100,31 @@
      "variant": "f446-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-pro-1.0-f446-usb-v0.13.0.bin",
-     "file": "firmware-btt-octopus-pro-1.0-f446-usb-v0.13.0.bin",
-     "size": 38188,
-     "sha256": "3bee7d20c4aa12179dc23630eb267b94fa8e53eb2d9bb1e4269c819b66aed40b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-pro-1.0-f446-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-pro-1.0-f446-usb-v0.14.0.bin",
+     "file": "firmware-btt-octopus-pro-1.0-f446-usb-v0.14.0.bin",
+     "size": 46560,
+     "sha256": "8fe51d468e4b501171c51cbdb0a350c01a7a1c8a7bb29b8f3d2d39679aa6344f",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-pro-1.0-f446-usb-v0.14.0.config"
     },
     {
      "variant": "f429-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-pro-1.0-f429-usb-v0.13.0.bin",
-     "file": "firmware-btt-octopus-pro-1.0-f429-usb-v0.13.0.bin",
-     "size": 38176,
-     "sha256": "ff0df8f6c590bfc75caacefbc50345147cf41134a66e7032ae55f833d7e77285",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-pro-1.0-f429-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-pro-1.0-f429-usb-v0.14.0.bin",
+     "file": "firmware-btt-octopus-pro-1.0-f429-usb-v0.14.0.bin",
+     "size": 46576,
+     "sha256": "a6cf46e0d9628e9c38490c82b05afd3b9f7b9b5d7356c2a0e5a72b1d8421aff1",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-pro-1.0-f429-usb-v0.14.0.config"
     },
     {
      "variant": "h723-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-pro-1.0-h723-usb-v0.13.0.bin",
-     "file": "firmware-btt-octopus-pro-1.0-h723-usb-v0.13.0.bin",
-     "size": 37252,
-     "sha256": "d01e8c19a3c70e9e6e1097cecb89660be9895ce6975fc22d46462be84174d08b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-pro-1.0-h723-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-pro-1.0-h723-usb-v0.14.0.bin",
+     "file": "firmware-btt-octopus-pro-1.0-h723-usb-v0.14.0.bin",
+     "size": 46816,
+     "sha256": "5d60955412e33cf80e3615ee2e833cca8fd438d058b2224616f8b00872fd93d1",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-pro-1.0-h723-usb-v0.14.0.config"
     }
    ]
   },
@@ -143,11 +143,11 @@
      "variant": "h723-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-pro-1.1-h723-usb-v0.13.0.bin",
-     "file": "firmware-btt-octopus-pro-1.1-h723-usb-v0.13.0.bin",
-     "size": 37252,
-     "sha256": "d01e8c19a3c70e9e6e1097cecb89660be9895ce6975fc22d46462be84174d08b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-pro-1.1-h723-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-pro-1.1-h723-usb-v0.14.0.bin",
+     "file": "firmware-btt-octopus-pro-1.1-h723-usb-v0.14.0.bin",
+     "size": 46816,
+     "sha256": "5d60955412e33cf80e3615ee2e833cca8fd438d058b2224616f8b00872fd93d1",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-pro-1.1-h723-usb-v0.14.0.config"
     }
    ]
   },
@@ -166,51 +166,51 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-usb-v0.13.0.bin",
-     "file": "firmware-btt-octopus-max-ez-usb-v0.13.0.bin",
-     "size": 37252,
-     "sha256": "d01e8c19a3c70e9e6e1097cecb89660be9895ce6975fc22d46462be84174d08b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-usb-v0.14.0.bin",
+     "file": "firmware-btt-octopus-max-ez-usb-v0.14.0.bin",
+     "size": 46816,
+     "sha256": "5d60955412e33cf80e3615ee2e833cca8fd438d058b2224616f8b00872fd93d1",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-usb-v0.14.0.config"
     },
     {
      "variant": "can-1m",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-octopus-max-ez-can-1m-v0.13.0.bin",
-     "size": 35924,
-     "sha256": "04b66553d3bcf5c89c844397450b28aefcbf7c27070e52ae2ef5bf8fe9a9d18b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-can-1m-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-octopus-max-ez-can-1m-v0.14.0.bin",
+     "size": 45312,
+     "sha256": "a284bc5869ea4b9643ca5594bbb0017867581788fce61a61e0785b1d6fbbea16",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-can-1m-v0.14.0.config"
     },
     {
      "variant": "can-500k",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-octopus-max-ez-can-500k-v0.13.0.bin",
-     "size": 35924,
-     "sha256": "15e18b243d6baf1dfeecd1de5938d7abc73fd02385eb75f0a1a2d5a5bc49ece7",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-can-500k-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-octopus-max-ez-can-500k-v0.14.0.bin",
+     "size": 45320,
+     "sha256": "308616f2cb2b920a29a83bc59ad21bd6a34cd3728de74ac48d4e952465f0f6b4",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-can-500k-v0.14.0.config"
     },
     {
      "variant": "katapult-can-1m",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-katapult-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-octopus-max-ez-katapult-can-1m-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-katapult-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-octopus-max-ez-katapult-can-1m-v0.14.0.bin",
      "size": 4628,
      "sha256": "8106c9525fb8988055168e0cf61ff92ae623e5721e56e14f197cfc007e765b23",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-katapult-can-1m-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-katapult-can-1m-v0.14.0.config"
     },
     {
      "variant": "katapult-can-500k",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-katapult-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-octopus-max-ez-katapult-can-500k-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-katapult-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-octopus-max-ez-katapult-can-500k-v0.14.0.bin",
      "size": 4628,
      "sha256": "8556c9c4fc98129f7b48d1154b0e9ac86491b5f9f1166da34e1613fb53bc0b5e",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-octopus-max-ez-katapult-can-500k-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-octopus-max-ez-katapult-can-500k-v0.14.0.config"
     }
    ]
   },
@@ -229,21 +229,21 @@
      "variant": "f407-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-2-f407-usb-v0.13.0.bin",
-     "file": "firmware-btt-skr-2-f407-usb-v0.13.0.bin",
-     "size": 38176,
-     "sha256": "dd65a1eb77b25677984a86d8ab1b062286cb814e29b5d2d213b8b2bd98d6c4a1",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-2-f407-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-2-f407-usb-v0.14.0.bin",
+     "file": "firmware-btt-skr-2-f407-usb-v0.14.0.bin",
+     "size": 46504,
+     "sha256": "22d84978d73f76f37895533aba08a4ba0d84da4606cb775fc681056db824ecb9",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-2-f407-usb-v0.14.0.config"
     },
     {
      "variant": "f429-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-2-f429-usb-v0.13.0.bin",
-     "file": "firmware-btt-skr-2-f429-usb-v0.13.0.bin",
-     "size": 38176,
-     "sha256": "ff0df8f6c590bfc75caacefbc50345147cf41134a66e7032ae55f833d7e77285",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-2-f429-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-2-f429-usb-v0.14.0.bin",
+     "file": "firmware-btt-skr-2-f429-usb-v0.14.0.bin",
+     "size": 46576,
+     "sha256": "a6cf46e0d9628e9c38490c82b05afd3b9f7b9b5d7356c2a0e5a72b1d8421aff1",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-2-f429-usb-v0.14.0.config"
     }
    ]
   },
@@ -262,21 +262,21 @@
      "variant": "h723-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-3-h723-usb-v0.13.0.bin",
-     "file": "firmware-btt-skr-3-h723-usb-v0.13.0.bin",
-     "size": 37252,
-     "sha256": "d01e8c19a3c70e9e6e1097cecb89660be9895ce6975fc22d46462be84174d08b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-3-h723-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-3-h723-usb-v0.14.0.bin",
+     "file": "firmware-btt-skr-3-h723-usb-v0.14.0.bin",
+     "size": 46816,
+     "sha256": "5d60955412e33cf80e3615ee2e833cca8fd438d058b2224616f8b00872fd93d1",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-3-h723-usb-v0.14.0.config"
     },
     {
      "variant": "h743-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-3-h743-usb-v0.13.0.bin",
-     "file": "firmware-btt-skr-3-h743-usb-v0.13.0.bin",
-     "size": 37404,
-     "sha256": "be970de7cbfdb2ce7d53e8862670c11d6d96aa08fcf65cd7f47d123f08a6bc74",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-3-h743-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-3-h743-usb-v0.14.0.bin",
+     "file": "firmware-btt-skr-3-h743-usb-v0.14.0.bin",
+     "size": 46904,
+     "sha256": "551087c08c9cb69b63980a8e448a1c775d02e16dbef53d66b0904d9d343e603c",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-3-h743-usb-v0.14.0.config"
     }
    ]
   },
@@ -293,11 +293,11 @@
      "variant": "h723-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-3-ez-h723-usb-v0.13.0.bin",
-     "file": "firmware-btt-skr-3-ez-h723-usb-v0.13.0.bin",
-     "size": 37252,
-     "sha256": "d01e8c19a3c70e9e6e1097cecb89660be9895ce6975fc22d46462be84174d08b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-3-ez-h723-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-3-ez-h723-usb-v0.14.0.bin",
+     "file": "firmware-btt-skr-3-ez-h723-usb-v0.14.0.bin",
+     "size": 46816,
+     "sha256": "5d60955412e33cf80e3615ee2e833cca8fd438d058b2224616f8b00872fd93d1",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-3-ez-h723-usb-v0.14.0.config"
     }
    ]
   },
@@ -314,11 +314,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-mini-e3-v1.2-usb-v0.13.0.bin",
-     "file": "firmware-btt-skr-mini-e3-v1.2-usb-v0.13.0.bin",
-     "size": 35380,
-     "sha256": "ba4919e68cdbcd5aeefbccd2bb2180fa0370e66898315105a28d07bdfee42b95",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-mini-e3-v1.2-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-mini-e3-v1.2-usb-v0.14.0.bin",
+     "file": "firmware-btt-skr-mini-e3-v1.2-usb-v0.14.0.bin",
+     "size": 43612,
+     "sha256": "476de54b1450c7d9e7cf34bae5b9a4874b4dd9c4703a87daf186244a9018f850",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-mini-e3-v1.2-usb-v0.14.0.config"
     }
    ]
   },
@@ -335,11 +335,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-mini-e3-v2.0-usb-v0.13.0.bin",
-     "file": "firmware-btt-skr-mini-e3-v2.0-usb-v0.13.0.bin",
-     "size": 35380,
-     "sha256": "ec96fd545cc2a492b30a611192954177375269c99461c0355db6a558d1910f0f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-mini-e3-v2.0-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-mini-e3-v2.0-usb-v0.14.0.bin",
+     "file": "firmware-btt-skr-mini-e3-v2.0-usb-v0.14.0.bin",
+     "size": 43612,
+     "sha256": "2e83858bae2ea883da14f82db47d1eb9241982b9d57ed878bb9fa0c87ac3b767",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-mini-e3-v2.0-usb-v0.14.0.config"
     }
    ]
   },
@@ -356,11 +356,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-mini-e3-v3.0-usb-v0.13.0.bin",
-     "file": "firmware-btt-skr-mini-e3-v3.0-usb-v0.13.0.bin",
-     "size": 38384,
-     "sha256": "7787434472797d03d95a8b5962b08114d617af3f5b83ff503a8324ff01f1128f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-mini-e3-v3.0-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-mini-e3-v3.0-usb-v0.14.0.bin",
+     "file": "firmware-btt-skr-mini-e3-v3.0-usb-v0.14.0.bin",
+     "size": 47488,
+     "sha256": "bd0460843d42664e9c61fb6e7f906af4ab7e8d1e762803bdc4e9313d1f60e6ec",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-mini-e3-v3.0-usb-v0.14.0.config"
     }
    ]
   },
@@ -377,11 +377,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-cr6-usb-v0.13.0.bin",
-     "file": "firmware-btt-skr-cr6-usb-v0.13.0.bin",
-     "size": 35380,
-     "sha256": "ec96fd545cc2a492b30a611192954177375269c99461c0355db6a558d1910f0f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-cr6-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-cr6-usb-v0.14.0.bin",
+     "file": "firmware-btt-skr-cr6-usb-v0.14.0.bin",
+     "size": 43612,
+     "sha256": "2e83858bae2ea883da14f82db47d1eb9241982b9d57ed878bb9fa0c87ac3b767",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-cr6-usb-v0.14.0.config"
     }
    ]
   },
@@ -398,11 +398,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m4p-usb-v0.13.0.bin",
-     "file": "firmware-btt-manta-m4p-usb-v0.13.0.bin",
-     "size": 38384,
-     "sha256": "7787434472797d03d95a8b5962b08114d617af3f5b83ff503a8324ff01f1128f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m4p-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m4p-usb-v0.14.0.bin",
+     "file": "firmware-btt-manta-m4p-usb-v0.14.0.bin",
+     "size": 47488,
+     "sha256": "bd0460843d42664e9c61fb6e7f906af4ab7e8d1e762803bdc4e9313d1f60e6ec",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m4p-usb-v0.14.0.config"
     }
    ]
   },
@@ -419,51 +419,51 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-usb-v0.13.0.bin",
-     "file": "firmware-btt-manta-m5p-usb-v0.13.0.bin",
-     "size": 38384,
-     "sha256": "7787434472797d03d95a8b5962b08114d617af3f5b83ff503a8324ff01f1128f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-usb-v0.14.0.bin",
+     "file": "firmware-btt-manta-m5p-usb-v0.14.0.bin",
+     "size": 47488,
+     "sha256": "bd0460843d42664e9c61fb6e7f906af4ab7e8d1e762803bdc4e9313d1f60e6ec",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-usb-v0.14.0.config"
     },
     {
      "variant": "can-1m",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-manta-m5p-can-1m-v0.13.0.bin",
-     "size": 37696,
-     "sha256": "e75f81a31818e2c9afd4db17acbc6962253e904020cd5fab19090a30d8359b14",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-can-1m-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-manta-m5p-can-1m-v0.14.0.bin",
+     "size": 47264,
+     "sha256": "9604dd4b4aa6c28dbac4bb1412fd1efc1131112372f6e2052e00638b91bdf2a8",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-can-1m-v0.14.0.config"
     },
     {
      "variant": "can-500k",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-manta-m5p-can-500k-v0.13.0.bin",
-     "size": 37696,
-     "sha256": "a69a3c617c3242c7fc092ab53301ec05e0e0782f486fd3b3aa77b4958056cc6c",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-can-500k-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-manta-m5p-can-500k-v0.14.0.bin",
+     "size": 47272,
+     "sha256": "9571b819c38aaeef75d33211fd52ff303c1bb1ed35e2657d5a9a2574fb69ad46",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-can-500k-v0.14.0.config"
     },
     {
      "variant": "katapult-can-1m",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-katapult-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-manta-m5p-katapult-can-1m-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-katapult-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-manta-m5p-katapult-can-1m-v0.14.0.bin",
      "size": 4348,
      "sha256": "a6dcbda8989ac68d52afd81a10d07a7757657ecd019cbc4e96d3b35ba43f8963",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-katapult-can-1m-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-katapult-can-1m-v0.14.0.config"
     },
     {
      "variant": "katapult-can-500k",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-katapult-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-manta-m5p-katapult-can-500k-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-katapult-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-manta-m5p-katapult-can-500k-v0.14.0.bin",
      "size": 4348,
      "sha256": "7da02db5a90872810aa81b7a5d715019551479a42e355466eb6d47b0ab667c29",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m5p-katapult-can-500k-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m5p-katapult-can-500k-v0.14.0.config"
     }
    ]
   },
@@ -480,51 +480,51 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-usb-v0.13.0.bin",
-     "file": "firmware-btt-manta-m8p-v1.1-usb-v0.13.0.bin",
-     "size": 38384,
-     "sha256": "7787434472797d03d95a8b5962b08114d617af3f5b83ff503a8324ff01f1128f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-usb-v0.14.0.bin",
+     "file": "firmware-btt-manta-m8p-v1.1-usb-v0.14.0.bin",
+     "size": 47488,
+     "sha256": "bd0460843d42664e9c61fb6e7f906af4ab7e8d1e762803bdc4e9313d1f60e6ec",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-usb-v0.14.0.config"
     },
     {
      "variant": "can-1m",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-manta-m8p-v1.1-can-1m-v0.13.0.bin",
-     "size": 37696,
-     "sha256": "545895d6e94428a863dd29cfb56ffbb2d2fa8a911651a83521e9c7437cfbeffb",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-can-1m-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-manta-m8p-v1.1-can-1m-v0.14.0.bin",
+     "size": 47264,
+     "sha256": "112aebb36b5afe2f5aaaad8a578518f068fcf7f01fa5107723c384f42c16282b",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-can-1m-v0.14.0.config"
     },
     {
      "variant": "can-500k",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-manta-m8p-v1.1-can-500k-v0.13.0.bin",
-     "size": 37696,
-     "sha256": "51079dab5da9f9c517e199ed8f1c727759b1762bda9be0a77d86b700b1dfe76b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-can-500k-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-manta-m8p-v1.1-can-500k-v0.14.0.bin",
+     "size": 47272,
+     "sha256": "c6474a7e546602d347e7071eb9bb4d3b2931230a71f68e316b0cfa08ae057c7f",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-can-500k-v0.14.0.config"
     },
     {
      "variant": "katapult-can-1m",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-katapult-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-manta-m8p-v1.1-katapult-can-1m-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-katapult-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-manta-m8p-v1.1-katapult-can-1m-v0.14.0.bin",
      "size": 4392,
      "sha256": "4253fd14defc48be64414196768d4614d218104f6b9a899b90c69d6638c5d6c4",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-katapult-can-1m-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-katapult-can-1m-v0.14.0.config"
     },
     {
      "variant": "katapult-can-500k",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-katapult-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-manta-m8p-v1.1-katapult-can-500k-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-katapult-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-manta-m8p-v1.1-katapult-can-500k-v0.14.0.bin",
      "size": 4392,
      "sha256": "0e5dae983ed490fa0f02c19c93dbf4bcbb4683bf65364773894a77482bf27f0e",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-m8p-v1.1-katapult-can-500k-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-m8p-v1.1-katapult-can-500k-v0.14.0.config"
     }
    ]
   },
@@ -541,11 +541,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-e3-ez-usb-v0.13.0.bin",
-     "file": "firmware-btt-manta-e3-ez-usb-v0.13.0.bin",
-     "size": 38384,
-     "sha256": "7787434472797d03d95a8b5962b08114d617af3f5b83ff503a8324ff01f1128f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-manta-e3-ez-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-e3-ez-usb-v0.14.0.bin",
+     "file": "firmware-btt-manta-e3-ez-usb-v0.14.0.bin",
+     "size": 47488,
+     "sha256": "bd0460843d42664e9c61fb6e7f906af4ab7e8d1e762803bdc4e9313d1f60e6ec",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-manta-e3-ez-usb-v0.14.0.config"
     }
    ]
   },
@@ -562,11 +562,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-pico-usb-v0.13.0.config",
-     "file": "firmware-btt-skr-pico-usb-v0.13.0.config",
-     "size": 1925,
-     "sha256": "88bf0821783daa3aab8fbbd83877b99624aaa02fb16ed5ff90550c2416526e07",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skr-pico-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-pico-usb-v0.14.0.config",
+     "file": "firmware-btt-skr-pico-usb-v0.14.0.config",
+     "size": 2207,
+     "sha256": "15df88be58854dcfd7086e4ca22fa35a349710a0ff168d13e58fa1eb3601700f",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skr-pico-usb-v0.14.0.config"
     }
    ]
   },
@@ -583,11 +583,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skrat-1.0-usb-v0.13.0.bin",
-     "file": "firmware-btt-skrat-1.0-usb-v0.13.0.bin",
-     "size": 38424,
-     "sha256": "6e35e5a69cf464fb06275fafb23cd8cc23fc216c8d4f1198cd3e04e92a4021a1",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-skrat-1.0-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skrat-1.0-usb-v0.14.0.bin",
+     "file": "firmware-btt-skrat-1.0-usb-v0.14.0.bin",
+     "size": 47560,
+     "sha256": "1e2d3ac79271386cb15fc484e5a14d0404c0a3c7731c7e81398c1aa203ace445",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-skrat-1.0-usb-v0.14.0.config"
     }
    ]
   },
@@ -606,51 +606,51 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-usb-v0.13.0.bin",
-     "file": "firmware-btt-ebb36-v1.2-usb-v0.13.0.bin",
-     "size": 38280,
-     "sha256": "9c68be37bf2d0ff529a0376575d97d58473b0c721494b62d016da74e4256e5c1",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-usb-v0.14.0.bin",
+     "file": "firmware-btt-ebb36-v1.2-usb-v0.14.0.bin",
+     "size": 47400,
+     "sha256": "b2ce6f8ea2768c62bee5600cc4c268e040996e8425363765f15c7c72e8963751",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-usb-v0.14.0.config"
     },
     {
      "variant": "can-1m",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-ebb36-v1.2-can-1m-v0.13.0.bin",
-     "size": 37688,
-     "sha256": "84f9cb2e13d38c428b4da76841096f2693beb185533cff3b3ab7e0def17375fd",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-can-1m-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-ebb36-v1.2-can-1m-v0.14.0.bin",
+     "size": 47272,
+     "sha256": "d2006a3971489cc7112d5f0443b21c8118011dd6d724b3c1489a6d77b0d62424",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-can-1m-v0.14.0.config"
     },
     {
      "variant": "can-500k",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-ebb36-v1.2-can-500k-v0.13.0.bin",
-     "size": 37688,
-     "sha256": "8f1abfc9a9fa4a5964879eb21f23857a860f20542d6d69876f27d613dc8e9878",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-can-500k-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-ebb36-v1.2-can-500k-v0.14.0.bin",
+     "size": 47280,
+     "sha256": "d47a3768edca841d9a3366b923fde030828b354d368b2dbd948b158ec3afa97b",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-can-500k-v0.14.0.config"
     },
     {
      "variant": "katapult-can-1m",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-katapult-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-ebb36-v1.2-katapult-can-1m-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-katapult-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-ebb36-v1.2-katapult-can-1m-v0.14.0.bin",
      "size": 4372,
      "sha256": "174452bdcedcc410f5e9fe8d85e0955c808943f1f407aeab316c006d8d557ac7",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-katapult-can-1m-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-katapult-can-1m-v0.14.0.config"
     },
     {
      "variant": "katapult-can-500k",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-katapult-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-ebb36-v1.2-katapult-can-500k-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-katapult-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-ebb36-v1.2-katapult-can-500k-v0.14.0.bin",
      "size": 4372,
      "sha256": "7d729b05ab08b76d380ff96b1ecc3453d660b5ea21ef5daebcf50010f099a699",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb36-v1.2-katapult-can-500k-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb36-v1.2-katapult-can-500k-v0.14.0.config"
     }
    ]
   },
@@ -669,51 +669,51 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-usb-v0.13.0.bin",
-     "file": "firmware-btt-ebb42-v1.2-usb-v0.13.0.bin",
-     "size": 38280,
-     "sha256": "9c68be37bf2d0ff529a0376575d97d58473b0c721494b62d016da74e4256e5c1",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-usb-v0.14.0.bin",
+     "file": "firmware-btt-ebb42-v1.2-usb-v0.14.0.bin",
+     "size": 47400,
+     "sha256": "b2ce6f8ea2768c62bee5600cc4c268e040996e8425363765f15c7c72e8963751",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-usb-v0.14.0.config"
     },
     {
      "variant": "can-1m",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-ebb42-v1.2-can-1m-v0.13.0.bin",
-     "size": 37688,
-     "sha256": "84f9cb2e13d38c428b4da76841096f2693beb185533cff3b3ab7e0def17375fd",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-can-1m-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-ebb42-v1.2-can-1m-v0.14.0.bin",
+     "size": 47272,
+     "sha256": "d2006a3971489cc7112d5f0443b21c8118011dd6d724b3c1489a6d77b0d62424",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-can-1m-v0.14.0.config"
     },
     {
      "variant": "can-500k",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-ebb42-v1.2-can-500k-v0.13.0.bin",
-     "size": 37688,
-     "sha256": "8f1abfc9a9fa4a5964879eb21f23857a860f20542d6d69876f27d613dc8e9878",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-can-500k-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-ebb42-v1.2-can-500k-v0.14.0.bin",
+     "size": 47280,
+     "sha256": "d47a3768edca841d9a3366b923fde030828b354d368b2dbd948b158ec3afa97b",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-can-500k-v0.14.0.config"
     },
     {
      "variant": "katapult-can-1m",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-katapult-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-ebb42-v1.2-katapult-can-1m-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-katapult-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-ebb42-v1.2-katapult-can-1m-v0.14.0.bin",
      "size": 4372,
      "sha256": "174452bdcedcc410f5e9fe8d85e0955c808943f1f407aeab316c006d8d557ac7",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-katapult-can-1m-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-katapult-can-1m-v0.14.0.config"
     },
     {
      "variant": "katapult-can-500k",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-katapult-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-ebb42-v1.2-katapult-can-500k-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-katapult-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-ebb42-v1.2-katapult-can-500k-v0.14.0.bin",
      "size": 4372,
      "sha256": "7d729b05ab08b76d380ff96b1ecc3453d660b5ea21ef5daebcf50010f099a699",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb42-v1.2-katapult-can-500k-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb42-v1.2-katapult-can-500k-v0.14.0.config"
     }
    ]
   },
@@ -730,51 +730,51 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-usb-v0.13.0.bin",
-     "file": "firmware-btt-ebb-sb-can-usb-v0.13.0.bin",
-     "size": 38280,
-     "sha256": "9c68be37bf2d0ff529a0376575d97d58473b0c721494b62d016da74e4256e5c1",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-usb-v0.14.0.bin",
+     "file": "firmware-btt-ebb-sb-can-usb-v0.14.0.bin",
+     "size": 47400,
+     "sha256": "b2ce6f8ea2768c62bee5600cc4c268e040996e8425363765f15c7c72e8963751",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-usb-v0.14.0.config"
     },
     {
      "variant": "can-1m",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-ebb-sb-can-can-1m-v0.13.0.bin",
-     "size": 37688,
-     "sha256": "84f9cb2e13d38c428b4da76841096f2693beb185533cff3b3ab7e0def17375fd",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-can-1m-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-ebb-sb-can-can-1m-v0.14.0.bin",
+     "size": 47272,
+     "sha256": "d2006a3971489cc7112d5f0443b21c8118011dd6d724b3c1489a6d77b0d62424",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-can-1m-v0.14.0.config"
     },
     {
      "variant": "can-500k",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-ebb-sb-can-can-500k-v0.13.0.bin",
-     "size": 37688,
-     "sha256": "8f1abfc9a9fa4a5964879eb21f23857a860f20542d6d69876f27d613dc8e9878",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-can-500k-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-ebb-sb-can-can-500k-v0.14.0.bin",
+     "size": 47280,
+     "sha256": "d47a3768edca841d9a3366b923fde030828b354d368b2dbd948b158ec3afa97b",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-can-500k-v0.14.0.config"
     },
     {
      "variant": "katapult-can-1m",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-katapult-can-1m-v0.13.0.bin",
-     "file": "firmware-btt-ebb-sb-can-katapult-can-1m-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-katapult-can-1m-v0.14.0.bin",
+     "file": "firmware-btt-ebb-sb-can-katapult-can-1m-v0.14.0.bin",
      "size": 4372,
      "sha256": "174452bdcedcc410f5e9fe8d85e0955c808943f1f407aeab316c006d8d557ac7",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-katapult-can-1m-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-katapult-can-1m-v0.14.0.config"
     },
     {
      "variant": "katapult-can-500k",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-katapult-can-500k-v0.13.0.bin",
-     "file": "firmware-btt-ebb-sb-can-katapult-can-500k-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-katapult-can-500k-v0.14.0.bin",
+     "file": "firmware-btt-ebb-sb-can-katapult-can-500k-v0.14.0.bin",
      "size": 4372,
      "sha256": "7d729b05ab08b76d380ff96b1ecc3453d660b5ea21ef5daebcf50010f099a699",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-btt-ebb-sb-can-katapult-can-500k-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-btt-ebb-sb-can-katapult-can-500k-v0.14.0.config"
     }
    ]
   },
@@ -793,51 +793,51 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-usb-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht36-usb-v0.13.0.bin",
-     "size": 37592,
-     "sha256": "d128982e5004a4e42a7802bdf0b10f7599a80703a4ea68f645841789c1bcf65f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-usb-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht36-usb-v0.14.0.bin",
+     "size": 46640,
+     "sha256": "a635a6ee7f2a9f0c82c8e28ef03ff5a3896e92f4fb17f3a91de3123f0aa72f30",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-usb-v0.14.0.config"
     },
     {
      "variant": "can-1m",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-can-1m-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht36-can-1m-v0.13.0.bin",
-     "size": 36928,
-     "sha256": "666fa0d10b9368a458d569d5a115684700e8e05593854e8ac8d97fef2c882bc5",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-can-1m-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-can-1m-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht36-can-1m-v0.14.0.bin",
+     "size": 46304,
+     "sha256": "a0eca079ee2e1a80562a420042cde5ff03b3aec6f75361f4d6ac0ff3ab52ed9b",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-can-1m-v0.14.0.config"
     },
     {
      "variant": "can-500k",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-can-500k-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht36-can-500k-v0.13.0.bin",
-     "size": 36928,
-     "sha256": "87dd4342d6f091eb76355f96a110e1bc319ef97ebfc103602f23b0b11ea3b7dd",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-can-500k-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-can-500k-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht36-can-500k-v0.14.0.bin",
+     "size": 46296,
+     "sha256": "c11fce105d136c1e2e2a1bdf22205d81760a554d04a56c2a4ea959c386cf2d9d",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-can-500k-v0.14.0.config"
     },
     {
      "variant": "katapult-can-1m",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-katapult-can-1m-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht36-katapult-can-1m-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-katapult-can-1m-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht36-katapult-can-1m-v0.14.0.bin",
      "size": 4308,
      "sha256": "c30458212a357ecd36126db9d9e0a13b4a8e34a790292578b25f64b33cd38e19",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-katapult-can-1m-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-katapult-can-1m-v0.14.0.config"
     },
     {
      "variant": "katapult-can-500k",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-katapult-can-500k-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht36-katapult-can-500k-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-katapult-can-500k-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht36-katapult-can-500k-v0.14.0.bin",
      "size": 4308,
      "sha256": "aa1203018d016eb5f02735e8edb178ad203157f3ae23c29f585132a4f9c6b8c9",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht36-katapult-can-500k-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht36-katapult-can-500k-v0.14.0.config"
     }
    ]
   },
@@ -856,51 +856,51 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-usb-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht42-usb-v0.13.0.bin",
-     "size": 37592,
-     "sha256": "d128982e5004a4e42a7802bdf0b10f7599a80703a4ea68f645841789c1bcf65f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-usb-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht42-usb-v0.14.0.bin",
+     "size": 46640,
+     "sha256": "a635a6ee7f2a9f0c82c8e28ef03ff5a3896e92f4fb17f3a91de3123f0aa72f30",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-usb-v0.14.0.config"
     },
     {
      "variant": "can-1m",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-can-1m-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht42-can-1m-v0.13.0.bin",
-     "size": 36928,
-     "sha256": "666fa0d10b9368a458d569d5a115684700e8e05593854e8ac8d97fef2c882bc5",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-can-1m-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-can-1m-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht42-can-1m-v0.14.0.bin",
+     "size": 46304,
+     "sha256": "a0eca079ee2e1a80562a420042cde5ff03b3aec6f75361f4d6ac0ff3ab52ed9b",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-can-1m-v0.14.0.config"
     },
     {
      "variant": "can-500k",
      "katapult": false,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-can-500k-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht42-can-500k-v0.13.0.bin",
-     "size": 36928,
-     "sha256": "87dd4342d6f091eb76355f96a110e1bc319ef97ebfc103602f23b0b11ea3b7dd",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-can-500k-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-can-500k-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht42-can-500k-v0.14.0.bin",
+     "size": 46296,
+     "sha256": "c11fce105d136c1e2e2a1bdf22205d81760a554d04a56c2a4ea959c386cf2d9d",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-can-500k-v0.14.0.config"
     },
     {
      "variant": "katapult-can-1m",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-katapult-can-1m-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht42-katapult-can-1m-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-katapult-can-1m-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht42-katapult-can-1m-v0.14.0.bin",
      "size": 4308,
      "sha256": "c30458212a357ecd36126db9d9e0a13b4a8e34a790292578b25f64b33cd38e19",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-katapult-can-1m-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-katapult-can-1m-v0.14.0.config"
     },
     {
      "variant": "katapult-can-500k",
      "katapult": true,
      "interface": "can",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-katapult-can-500k-v0.13.0.bin",
-     "file": "firmware-mellow-fly-sht42-katapult-can-500k-v0.13.0.bin",
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-katapult-can-500k-v0.14.0.bin",
+     "file": "firmware-mellow-fly-sht42-katapult-can-500k-v0.14.0.bin",
      "size": 4308,
      "sha256": "aa1203018d016eb5f02735e8edb178ad203157f3ae23c29f585132a4f9c6b8c9",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mellow-fly-sht42-katapult-can-500k-v0.13.0.config"
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mellow-fly-sht42-katapult-can-500k-v0.14.0.config"
     }
    ]
   },
@@ -919,21 +919,21 @@
      "variant": "no-bootloader-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-fysetc-spider-no-bootloader-usb-v0.13.0.bin",
-     "file": "firmware-fysetc-spider-no-bootloader-usb-v0.13.0.bin",
-     "size": 38076,
-     "sha256": "cb52d31363ef8e86099f30b4b1027b5b264c3b9c50c279b1168ad9afe9a889a8",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-fysetc-spider-no-bootloader-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-fysetc-spider-no-bootloader-usb-v0.14.0.bin",
+     "file": "firmware-fysetc-spider-no-bootloader-usb-v0.14.0.bin",
+     "size": 46456,
+     "sha256": "644e936c319c6dc984fe8b32705bdc41172404ccae1835abb107f38321c48579",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-fysetc-spider-no-bootloader-usb-v0.14.0.config"
     },
     {
      "variant": "32k-bootloader-usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-fysetc-spider-32k-bootloader-usb-v0.13.0.bin",
-     "file": "firmware-fysetc-spider-32k-bootloader-usb-v0.13.0.bin",
-     "size": 38188,
-     "sha256": "3bee7d20c4aa12179dc23630eb267b94fa8e53eb2d9bb1e4269c819b66aed40b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-fysetc-spider-32k-bootloader-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-fysetc-spider-32k-bootloader-usb-v0.14.0.bin",
+     "file": "firmware-fysetc-spider-32k-bootloader-usb-v0.14.0.bin",
+     "size": 46560,
+     "sha256": "8fe51d468e4b501171c51cbdb0a350c01a7a1c8a7bb29b8f3d2d39679aa6344f",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-fysetc-spider-32k-bootloader-usb-v0.14.0.config"
     }
    ]
   },
@@ -950,11 +950,11 @@
      "variant": "usart3",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mks-robin-nano-v2-usart3-v0.13.0.bin",
-     "file": "firmware-mks-robin-nano-v2-usart3-v0.13.0.bin",
-     "size": 33332,
-     "sha256": "50a30d4d8d6ba2d78997289c38af3a8003292c37982934c08908c10900a034f3",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mks-robin-nano-v2-usart3-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mks-robin-nano-v2-usart3-v0.14.0.bin",
+     "file": "firmware-mks-robin-nano-v2-usart3-v0.14.0.bin",
+     "size": 41740,
+     "sha256": "5048e33c45e67cdfca071dfd8d3759db8badd0ff2d5b34e4cf9672bc3cc0ef95",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mks-robin-nano-v2-usart3-v0.14.0.config"
     }
    ]
   },
@@ -971,11 +971,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mks-robin-nano-v3-usb-v0.13.0.bin",
-     "file": "firmware-mks-robin-nano-v3-usb-v0.13.0.bin",
-     "size": 38176,
-     "sha256": "16d9a7911ba9759e321bce8e580180c9a7a58d7e15a7f60db29d48a8f4005683",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-mks-robin-nano-v3-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mks-robin-nano-v3-usb-v0.14.0.bin",
+     "file": "firmware-mks-robin-nano-v3-usb-v0.14.0.bin",
+     "size": 46528,
+     "sha256": "ed265bad00aa624a3fcb06f1810a50e82ec0d6915fc40c31667a73e883841b58",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-mks-robin-nano-v3-usb-v0.14.0.config"
     }
    ]
   },
@@ -994,11 +994,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-ldo-leviathan-v1.2-usb-v0.13.0.bin",
-     "file": "firmware-ldo-leviathan-v1.2-usb-v0.13.0.bin",
-     "size": 38188,
-     "sha256": "3bee7d20c4aa12179dc23630eb267b94fa8e53eb2d9bb1e4269c819b66aed40b",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-ldo-leviathan-v1.2-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-ldo-leviathan-v1.2-usb-v0.14.0.bin",
+     "file": "firmware-ldo-leviathan-v1.2-usb-v0.14.0.bin",
+     "size": 46560,
+     "sha256": "8fe51d468e4b501171c51cbdb0a350c01a7a1c8a7bb29b8f3d2d39679aa6344f",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-ldo-leviathan-v1.2-usb-v0.14.0.config"
     }
    ]
   },
@@ -1017,21 +1017,21 @@
      "variant": "usart1",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-creality-4.2.2-usart1-v0.13.0.bin",
-     "file": "firmware-creality-4.2.2-usart1-v0.13.0.bin",
-     "size": 33316,
-     "sha256": "f730314f193d2b4597e3b015c29ea65c1d9a9d1dd21c331a1a4a78bf436edaf2",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-creality-4.2.2-usart1-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-creality-4.2.2-usart1-v0.14.0.bin",
+     "file": "firmware-creality-4.2.2-usart1-v0.14.0.bin",
+     "size": 41724,
+     "sha256": "22ea7ff47b4382d450834bcb0c39bac5af0e6fc2fa006fbe7d296b2bc3c89977",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-creality-4.2.2-usart1-v0.14.0.config"
     },
     {
      "variant": "usart3",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-creality-4.2.2-usart3-v0.13.0.bin",
-     "file": "firmware-creality-4.2.2-usart3-v0.13.0.bin",
-     "size": 33332,
-     "sha256": "449a4377f2925a772d13a9302461375ad8ea5749e124c76bfb6a7997b8ca32ea",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-creality-4.2.2-usart3-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-creality-4.2.2-usart3-v0.14.0.bin",
+     "file": "firmware-creality-4.2.2-usart3-v0.14.0.bin",
+     "size": 41740,
+     "sha256": "cf64e7dfc0dd0d09ac40983a693fcabc937c7db429a3e065a6861b21f654a08b",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-creality-4.2.2-usart3-v0.14.0.config"
     }
    ]
   },
@@ -1048,21 +1048,21 @@
      "variant": "usart1",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-creality-4.2.7-usart1-v0.13.0.bin",
-     "file": "firmware-creality-4.2.7-usart1-v0.13.0.bin",
-     "size": 33316,
-     "sha256": "f730314f193d2b4597e3b015c29ea65c1d9a9d1dd21c331a1a4a78bf436edaf2",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-creality-4.2.7-usart1-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-creality-4.2.7-usart1-v0.14.0.bin",
+     "file": "firmware-creality-4.2.7-usart1-v0.14.0.bin",
+     "size": 41724,
+     "sha256": "22ea7ff47b4382d450834bcb0c39bac5af0e6fc2fa006fbe7d296b2bc3c89977",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-creality-4.2.7-usart1-v0.14.0.config"
     },
     {
      "variant": "usart3",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-creality-4.2.7-usart3-v0.13.0.bin",
-     "file": "firmware-creality-4.2.7-usart3-v0.13.0.bin",
-     "size": 33332,
-     "sha256": "449a4377f2925a772d13a9302461375ad8ea5749e124c76bfb6a7997b8ca32ea",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-creality-4.2.7-usart3-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-creality-4.2.7-usart3-v0.14.0.bin",
+     "file": "firmware-creality-4.2.7-usart3-v0.14.0.bin",
+     "size": 41740,
+     "sha256": "cf64e7dfc0dd0d09ac40983a693fcabc937c7db429a3e065a6861b21f654a08b",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-creality-4.2.7-usart3-v0.14.0.config"
     }
    ]
   },
@@ -1081,11 +1081,11 @@
      "variant": "usb",
      "katapult": false,
      "interface": "usb",
-     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-artillery-ruby-v1.2-usb-v0.13.0.bin",
-     "file": "firmware-artillery-ruby-v1.2-usb-v0.13.0.bin",
-     "size": 37832,
-     "sha256": "0b27746cb1784807a9e70e30b75ec719af283e6fd7a2ad6f6dc4f4e5206a990f",
-     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.13.0/firmware-artillery-ruby-v1.2-usb-v0.13.0.config"
+     "asset": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-artillery-ruby-v1.2-usb-v0.14.0.bin",
+     "file": "firmware-artillery-ruby-v1.2-usb-v0.14.0.bin",
+     "size": 46324,
+     "sha256": "b4d4d9b58fcf11518d2a7a5a80a1ceca9656d697e43d7f18cf5ec6e52f747d04",
+     "config": "https://github.com/Advanced3dPrinting/klipper-firmware-builder/releases/download/klipper-v0.14.0/firmware-artillery-ruby-v1.2-usb-v0.14.0.config"
     }
    ]
   }
